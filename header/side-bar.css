@@ -1,0 +1,44 @@
+.fixed-bar {
+  display: grid;
+  position: fixed;
+  left: 0px;
+  top: 450px;
+  width: 350px;
+  padding-bottom: 50px;
+  border-radius: 10px;
+  margin-left: 15px;
+  z-index: 50;
+  background-color: rgb(73, 73, 102);
+}
+
+
+.together {
+  font-weight: bold;
+  font-size: 24px;
+  color: white;
+  margin-top: 15px;
+  margin-left: 10px;
+  width: 300px;
+}
+
+
+
+.hundred {
+  font-weight: bold;
+  color: gray;
+  width: 300px;
+  margin-top: 0px;
+  margin-left: 10px;
+}
+
+.now-button {
+  background-color: black;
+  color: blueviolet;
+  padding: 12px 12px 12px 12px;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  margin-left: 10px;
+  width: 100px;
+  cursor: pointer;
+}

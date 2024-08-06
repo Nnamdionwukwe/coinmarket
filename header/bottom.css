@@ -1,0 +1,98 @@
+.buttom {
+  display: grid;
+  padding-top: 140px;
+  background-color: rgb(26, 26, 44);
+}
+
+@media (max-width: 899px) {
+  .buttom {
+    grid-template-columns: 15px 1fr 1fr 1fr 1fr;
+  }
+}
+
+@media (min-width: 900px) {
+  .buttom {
+    grid-template-columns: 900px 1fr 1fr 1fr 1fr;
+  }
+}
+
+.caps {
+  font-weight: bold;
+  font-size: 24px;
+  color: white;
+  margin-top: -12px;
+  margin-left: 10px;
+}
+
+.buttom-div {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+.chats {
+  font-weight: bold;
+  font-size: 18px;
+  color: white;
+}
+
+.cha{
+  font-weight: bold;
+  color: rgb(185, 174, 174);
+  margin-top: -12px;
+  margin-bottom: 0px;
+}
+
+.chat {
+  font-weight: bold;
+  color: rgb(185, 174, 174);
+  margin-top: 5px;
+  margin-bottom: 14px;
+}
+
+.career-div {
+  position: relative;
+}
+
+.hiring {
+  position: absolute;
+  top: 5px;
+  right: -10px;
+  color: white;
+  background-color: blue;
+  padding: 4px 8px 4px 8px;
+  border-radius: 15px;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.twenties-div {
+  display: grid;
+  justify-content: right;
+  margin-right: 20px;
+  margin-top: 90px;
+  margin-bottom: -30px;
+}
+
+.twenties  {
+  font-weight: bold;
+  font-size: 16px;
+  color: white;
+  margin-top: 20px;;
+}
+
+.nnamdi {
+  font-weight: bold;
+  font-size: 15px;
+  color: gray;
+  margin-top: 15px;
+}
+
+.span {
+  font-size: 17px;
+  color: white;
+  border-style: solid;
+  border-width: 1px;
+  border-color: white;
+  border-radius: 20px;
+}

@@ -1,0 +1,361 @@
+.body {
+  background-color: rgb(26, 26, 44);
+}
+
+.grid-div {
+  display: grid;
+  padding: 10px 70px 10px 10px;
+  background-color: rgb(22, 26, 44);
+}
+
+@media (max-width: 500px) {
+  .grid-div {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (min-width: 850px) {
+  .grid-div {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.left-div-coin {
+  display: grid;
+  margin-right: 40px;
+  padding-right: 20px;
+  margin-right: 20px;
+  margin-top: 70px;
+}
+
+@media (min-width: 500px) {
+  .left-div-coin {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (min-width: 600px) {
+  .left-div-coin {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 800px) {
+  .left-div-coin {
+    grid-template-columns: 100px 120px 100px;
+  }
+}
+
+.mond {
+  font-weight: bold;
+  font-size: 13px;
+  cursor: pointer;
+  color: white;
+  width: 150px;
+}
+
+.mond:hover {
+  color: blue;
+  background-color: rgb(22, 26, 44);;
+  padding-top: 10px;
+  padding-left: 8px;
+  padding-bottom: 0px;
+  border-radius: 10px;
+  border: none;
+}
+
+.right-div-coin {
+  display: grid;
+  margin-top: 70px;
+}
+
+.coin-market-cap {
+  color: white;
+  font-weight: bold;
+  font-size: 36px;
+  margin-top: 9px;
+}
+
+.exclusive {
+  color: gray;
+  font-weight: bold;
+}
+
+.hand-div {
+  position: relative;
+  background-color: rgb(33, 138, 223);
+  width: 400px;
+  padding-top: 100px;
+  padding-bottom: 130px;
+  border-radius: 10px;
+  margin-bottom: 55px;
+  margin-right: 40px;
+}
+
+.m-div {
+  position: absolute;
+  top: 0px;
+  left: 20px;
+
+}
+
+.my-diamonds {
+  color: white;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.dash {
+  color: white;
+  font-weight: bold;
+  font-size: 50px;
+  margin-top: 0px;
+}
+
+.divss {
+  display: grid;
+}
+
+.div {
+  display: grid;
+  align-items: center;
+  column-gap: 50px;
+}
+
+@media (min-width: 800px) {
+  .div {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.diamond-button {
+  color: blue;
+  background-color: rgb(9, 9, 65);
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  padding: 12px 10px 12px 10px;
+}
+
+.every-day {
+  font-weight: bold;
+  font-size: 25px;
+  color: white;
+  width: 500px;
+}
+
+.seven {
+  font-weight: bold;
+  color: lightgray;
+}
+
+.collect-button {
+  width: 300px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 17px;
+  color: white;
+  background-color: rgb(33, 138, 223);
+}
+
+
+.di {
+  display: grid;
+  row-gap: 10px;
+  margin-top: 45px;
+}
+
+@media (min-width: 900px) {
+  .di {
+    column-gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  }
+}
+
+@media (max-width: 850px) {
+  .di {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+.button {
+  display: grid;
+  justify-content: center;
+  background-color: rgb(39, 39, 70);
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: rgb(33, 138, 223);
+}
+
+.day {
+  font-weight: bold;
+  font-size: 15px;
+  color: white;
+  margin-bottom: 0px;
+  margin-right: 7px;
+}
+
+.diamond {
+  width: 40px;
+}
+
+.ten {
+  color: white;
+  font-weight: bold;
+  font-size: 23px;
+  margin-top: 0px;
+  margin-right: 10px;
+}
+
+.what-div  {
+  margin-top: 20px;
+}
+
+.what {
+  display: inline-block;
+  font-weight: bold;
+  color: gray;
+}
+
+.read {
+  display: inline-block;
+  font-weight: bold;
+  margin-left: 5px;
+  color: blue;
+}
+
+.daily {
+  font-weight: bold;
+  font-size: 22px;
+  color: white;
+}
+
+.tasks-div {
+  display: grid;
+  align-items: center;
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-width: 1px;
+  border-color: rgb(48, 46, 46);
+}
+
+@media (max-width: 800px) {
+  .tasks-div {
+    grid-template-columns: 1fr ;
+  }
+}
+@media (min-width: 700px) {
+  .tasks-div {
+    grid-template-columns: 60px 1fr 1fr 200px;
+  }
+}
+.airdrop {
+  width: 45px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.join {
+  font-weight: bold;
+  font-size: 17px;
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+.joine {
+  margin-top: -20px;
+  margin-bottom: 0px;
+  font-weight: bold;
+  font-size: 17px;
+  color: white;
+}
+
+.catch {
+  font-weight: bold;
+  margin-top: 0px;
+  margin-bottom: 2px;
+  color: gray;
+  width: 450px;
+}
+
+.airdro {
+  font-weight: bold;
+  margin-top: 0px;
+  color: rgb(33, 138, 223);
+}
+
+.diamond-div {
+  margin-left: 80px;
+}
+
+.ten-diamond {
+  display: inline-block;
+  width: 15px;
+}
+
+.ten-para {
+  display: inline-block;
+  font-weight: bold;
+  font-size: 15px;
+  color: white;
+  margin-top: 0px;
+}
+
+.log-button {
+  width: 95%;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 17px;
+  color: white;
+  cursor: pointer;
+  background-color: rgb(73, 73, 240);
+}
+
+.lo-button {
+  width: 60%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 17px;
+  color: white;
+  cursor: pointer;
+  margin-left: 65px;
+  background-color: rgb(73, 73, 240);
+}
+
+.logg-button {
+  width: 90%;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 17px;
+  color: white;
+  cursor: pointer;
+  margin-left: 10px;
+  background-color: rgb(73, 73, 240);
+}
+
+
+.want-more {
+  font-weight: bold;
+  font-size: 23px;
+  color: white;
+  margin-top: 70px;
+  margin-bottom: 20px;
+}

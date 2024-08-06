@@ -1,0 +1,285 @@
+.sub-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: rgb(26, 24, 24);
+  padding-bottom: 8px;
+}
+.first1 {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  column-gap: 40px;
+  margin-right: 80px;
+  align-items: center;
+}
+
+.oin {
+  font-size: 21px;
+  font-weight: bold;
+  color: white;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.coin {
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.coin:hover {
+  color: blue;
+}
+
+
+.curre {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  position: absolute;
+  left: -140px;
+  justify-content: center;
+  opacity: 0; 
+  z-index: 100; 
+  transition: opacity 0.015s;
+  padding: 20px 40px 20px 20px;
+  border-radius: 10px;
+  box-shadow: 1px 2px 3px 4px;
+  pointer-events: none;
+  background-color:rgb(26, 24, 24);
+}
+
+.opa:hover .curre {
+  opacity: 1;
+}
+
+.curre-div {
+  margin-right: 110px;
+}
+
+.unity-div {
+  position: absolute;
+  opacity: 0;
+  right: -20px;
+  border-radius: 10px;
+  pointer-events: none;
+  transition: opacity 0.015s;
+  z-index: 100;
+  box-shadow: 1px 2px 3px 4px;
+  background-color: rgb(26, 24, 24);
+  padding: 20px 15px 15px 20px;
+}
+
+.opa:hover .unity-div {
+  opacity: 1;
+}
+
+.unity {
+  display: grid;
+  grid-template-columns: 40px 1fr;
+  align-items: center;
+}
+
+.unityy {
+  margin-top: 20px;
+}
+
+.ale {
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  width: 200px;
+}
+
+.ale:hover {
+  color: lightblue;
+}
+
+.on-chain {
+  color: gray;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.lefts-main-div {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  position: absolute;
+  left: -300px;
+  justify-content: center;
+  pointer-events: none;
+  transition: opacity 0.015s;
+  z-index: 100;
+  width: 750px;
+  padding-left: 30px;
+  padding-top: 30px;
+  opacity: 0;
+  box-shadow: 1px 2px 3px 4px;
+  border-radius: 10px;
+  background-color: rgb(26, 24, 24);
+}
+
+.opa:hover .lefts-main-div {
+  opacity: 1;
+}
+
+.prodt {
+  color: white;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: rgb(71, 69, 69);
+  cursor: pointer;
+}
+
+.prodt:hover {
+  color: white;
+}
+
+.air-divs {
+  display: grid;
+  grid-template-columns: 50px 100px 100px;
+  align-items: center;
+  justify-content: center;
+}
+
+.ivs {
+  display: grid;
+  grid-template-columns: 50px 100px 50px;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.opa {
+  position: relative;
+}
+
+.learn-div {
+  display: grid;
+  position: absolute;
+  left: 0px; 
+  top: 34px;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+  padding-left: 20px;
+  padding-right: 40px;
+  opacity: 0;
+  transition: opacity 0.015s;
+  z-index: 100;
+  pointer-events: none;
+  box-shadow: 1px 2px 3px 4px;
+  border-radius: 10px;
+  background-color: rgb(26, 24, 24);
+}
+
+.opa:hover .learn-div {
+  opacity: 1;
+}
+
+.hov {
+  display: grid;
+  grid-template-columns: 50px 100px 20px;
+  align-items: center;
+}
+
+.hv {
+  display: grid;
+  grid-template-columns: 50px 100px;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.air {
+  width: 30px;
+  border-radius: 20px;
+}
+
+.alex {
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.alex:hover {
+  color: lightblue;
+}
+
+.box {
+  border-left-style: solid;
+  border-bottom-style: solid;
+  border-right-style: solid;
+  border-top-style: solid;
+  border-width: 1px;
+  border-color: gray;
+  width: 10px;
+  height: 10px;
+}
+
+.last2 {
+  display: flex;
+  flex-direction: row;
+  column-gap: 20px;
+  align-items: center;
+}
+
+.watchlist {
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.portfolio {
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.search-bar-div {
+  position: relative;
+  margin-right: 10px;
+}
+
+.search-bar {
+  width: 300px;
+  height: 41px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(56, 54, 54);
+}
+
+.search-bar::placeholder {
+  color: gray;
+  padding-left: 25px;
+}
+
+.button-div {
+  position: absolute;
+  top: 11px;
+  left: 3px;
+}
+
+.button-div2 {
+  position: absolute;
+  right: 5px;
+  top: 11px;
+}
+
+.button4 {
+  font-weight: bold;
+  font-size: 18px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding-left: 9px;
+  padding-right: 9px;
+  background-color: gray;
+}
+
+
+
+.search-icon {
+  width: 20px;
+}
+
